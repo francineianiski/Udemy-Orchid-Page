@@ -1,0 +1,60 @@
+body {
+    background-color: #F2F3F5;
+}
+
+div {
+    background-color: white;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(57, 57, 78);
+    min-width: 300px;
+    max-width: 750px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.cursive {
+    font-family: cursive, Verdana, 'Brush Script MT';
+}
+
+.palevioletred {
+    color:palevioletred;
+}
+
+#article-title {
+    color: palevioletred;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif, serif;
+}
+
+h3.cursive {
+    color: indigo;
+    font-style: italic;
+}
+
+.main {
+    background-image: url(images/orchid-phalaenopsis.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3 {
+    min-width: 300px;
+    max-width: 500px;
+}
