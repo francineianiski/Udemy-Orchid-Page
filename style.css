@@ -38,6 +38,9 @@ h3 {
     text-align: center;
     text-transform: uppercase;
     font-family: sans-serif, serif;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    border: 2px solid white;
 }
 
 h3.cursive {
@@ -57,4 +60,20 @@ h2,
 h3 {
     min-width: 300px;
     max-width: 500px;
+}
+
+.main a {
+    color: white;
+    font-size: 25px;
+}
+
+.main li {
+    list-style-type: none;
+    max-width: 150px;
+    background-color: rgba(199, 21, 134, 0.295);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
