@@ -27,7 +27,7 @@ h3 {
 }
 
 .cursive {
-    font-family: cursive, Verdana, 'Brush Script MT';
+    font-family: "Open Sans Regular", sans-serif;
 }
 
 .palevioletred {
@@ -40,7 +40,7 @@ h3 {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    font-family: sans-serif, serif;
+    font-family: "Open Sans Regular", sans-serif, serif;
     letter-spacing: 10px;
     word-spacing: 10px;
     border: 2px solid white;
@@ -147,15 +147,15 @@ a {
 }
 
 #species {
- list-style-type: none;
- margin: 0;
- padding: 0;   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
 }
 
 #species li {
     display: inline-block;
     width: 200px;
-    height: 240px;
+    height: auto;
 }
 
 #species h3 {
@@ -184,4 +184,19 @@ a {
 #habitat {
     background-color: rgba(0, 0, 0, 0.10);
     height: 100%;
+}
+
+#media {
+    background-color: black;
+    height: 700px;
+}
+
+#media h2 {
+    position: relative;
+    left: 200px;
+}
+
+video, iframe {
+    height: 80%;
+    width: 100%;
 }
