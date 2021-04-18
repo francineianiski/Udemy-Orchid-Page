@@ -1,5 +1,6 @@
 body {
     background-color: #F2F3F5;
+    margin: 0;
 }
 
 div {
@@ -34,13 +35,18 @@ h3 {
 }
 
 #article-title {
-    color: palevioletred;
+    margin: 0 auto;
+    padding: 30px;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     font-family: sans-serif, serif;
     letter-spacing: 10px;
     word-spacing: 10px;
     border: 2px solid white;
+    position: relative;
+    top: 200px;
+    background-color: rgba(92, 9, 85, 0.5);
 }
 
 h3.cursive {
@@ -48,9 +54,17 @@ h3.cursive {
     font-style: italic;
 }
 
+.main ul {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+    padding-left: 200px;
+}
+
 .main {
-    background-image: url(images/orchid-phalaenopsis.jpg);
-    height: 500px;
+    background-image: url(images/orchids.jpg);
+    height: 700px;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -58,22 +72,116 @@ h3.cursive {
 h1,
 h2,
 h3 {
-    min-width: 300px;
+    min-width: 200px;
     max-width: 500px;
+    margin-top: 0;
 }
 
 .main a {
+    display: block;
     color: white;
-    font-size: 25px;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
 }
 
 .main li {
+    border-radius: 20px;
+    display: inline-block;
+    margin: 1px;
+    padding: 5px;
     list-style-type: none;
-    max-width: 150px;
-    background-color: rgba(199, 21, 134, 0.295);
+    max-width: 350px;
+    background-color: rgba(137, 56, 108, 0.78);
     text-align: center;
 }
 
 a {
     text-decoration: none;
+}
+
+#navbar {
+    min-height: 50px;
+    background-color: rgb(65, 39, 39);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#navbar a {
+    display: inline-block;
+    height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding-left: 16px;
+}
+
+#navbar a:hover{
+    background-color: rgb(255, 107, 107);
+    color: black;
+}
+
+.main li:hover {
+    background-color: rgba(168, 36, 36, 0.9);
+}
+
+#introduction {
+    height: 100%;
+    padding-top: 240px;
+    background-image: url(./images/bg_orchid.jpg);
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0 10px;
+}
+
+.card {
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0 ,25);
+}
+
+#species {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;   
+}
+
+#species li {
+    display: inline-block;
+    width: 200px;
+    height: 240px;
+}
+
+#species h3 {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.28);
+    width: 200px;
+}
+
+.btn {
+    color: #fff;
+    background-color: rgba(137, 56, 108, 0.78);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+   background-color: rgba(168, 36, 35, 09); 
+}
+
+#habitat img {
+    float: right;
+}
+
+#habitat {
+    background-color: rgba(0, 0, 0, 0.10);
+    height: 100%;
 }
